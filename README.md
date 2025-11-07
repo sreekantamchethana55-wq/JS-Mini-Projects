@@ -1,57 +1,63 @@
-# 💻 JavaScript Mini Projects
-
-Welcome to my **JavaScript Mini Projects Collection** 🎯  
-This repository contains multiple beginner-friendly web projects built using **HTML, CSS, and JavaScript**.  
-Each project focuses on one or more **core JavaScript concepts** — from DOM manipulation to event handling and responsive design ✨  
-
----
-
-## 🌐 Live Demo
-🔗 [View All Projects (GitHub Pages)](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/)  
-
----
-
-## 📂 Projects Included
-
-| No. | Project Name | Description | Live Demo |
-|-----|---------------|--------------|------------|
-| 1️⃣ | [Color Picker](./Color-Picker) | Select and display background colors dynamically. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Color-Picker/) |
-| 2️⃣ | [Seasons Switcher](./Seasons%20Switcher) | Switch between four seasons dynamically with images. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Seasons-Switcher/) |
-| 3️⃣ | [Tip Calculator](./Tip%20Calculator) | Calculate tip and total amount instantly. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Tip-Calculator/) |
-| 4️⃣ | [Addition Game](./Addition%20Game) | A fun math game to add two random numbers. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Addition-Game/) |
-| 5️⃣ | [Random Color Generator](./Random%20Color%20Generator) | Change background color randomly on click. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Random-Color-Generator/) |
-| 6️⃣ | [Button Maker](./Button%20Maker) | Create your own styled button using user inputs. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Button-Maker/) |
-| 7️⃣ | [Tabs](./Tabs) | Switch between content sections dynamically using Bootstrap’s `d-none`. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Tabs/) |
-| 8️⃣ | [Toggle Like & Unlike](./Toggle%20Like%20and%20Unlike) | Toggle between like ❤️ and unlike 🤍 states. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Toggle-Like-and-Unlike/) |
-| 9️⃣ | [User Profile Page](./User%20Profile) | Dynamically display profile info using JS objects. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/User-Profile/) |
-| 🔟 | [Recipe Page](./Recipe%20Page) | Display a recipe with image and ingredients dynamically. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Recipe-Page/) |
-| 1️⃣1️⃣ | [Grocery List](./Grocery%20List) | Dynamically generate and display a list of grocery items. | 🔗 [Live](https://sreekantamchethana55-wq.github.io/JS-Mini-Projects/Grocery-List/) |
-
----
-
-## 🧠 Concepts Covered
-- ✅ DOM Manipulation (`createElement`, `appendChild`, `getElementById`)
-- ✅ Event Handling (`onclick`, `addEventListener`)
-- ✅ Dynamic CSS updates
-- ✅ Conditional Rendering
-- ✅ Loops and Arrays
-- ✅ Working with Objects
-- ✅ Bootstrap Utilities (`d-none`, `d-block`)
-- ✅ Responsive Design
-- ✅ Randomization and Math functions
-
----
-
-## 🪄 Tools & Technologies Used
-- **HTML5**
-- **CSS3**
-- **Bootstrap 4/5**
-- **JavaScript (ES6)**
-- **Git & GitHub**
-
----
-
-## ⚙️ How to Run Locally
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/sreekantamchethana55-wq/JS-Mini-Projects.git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Mini Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f7fc;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #1f2937;
+      margin-bottom: 30px;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-size: 1.2rem;
+      color: #2563eb;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 My JavaScript Mini Projects</h1>
+  <div class="projects">
+    <a href="./Color-Picker/index.html"><div class="card"><h2>🎨 Color Picker</h2></div></a>
+    <a href="./Seasons-Switcher/index.html"><div class="card"><h2>🌦️ Seasons Switcher</h2></div></a>
+    <a href="./Tip-Calculator/index.html"><div class="card"><h2>💰 Tip Calculator</h2></div></a>
+    <a href="./Addition-Game/index.html"><div class="card"><h2>➕ Addition Game</h2></div></a>
+    <a href="./Random-Color-Generator/index.html"><div class="card"><h2>🌈 Random Color Generator</h2></div></a>
+    <a href="./Button-Maker/index.html"><div class="card"><h2>🔘 Button Maker</h2></div></a>
+    <a href="./Tabs/index.html"><div class="card"><h2>📑 Tabs</h2></div></a>
+    <a href="./Toggle-Like-and-Unlike/index.html"><div class="card"><h2>❤️ Toggle Like & Unlike</h2></div></a>
+    <a href="./User-Profile/index.html"><div class="card"><h2>👩‍💻 User Profile</h2></div></a>
+    <a href="./Recipe-Page/index.html"><div class="card"><h2>🍽️ Recipe Page</h2></div></a>
+    <a href="./Grocery-List/index.html"><div class="card"><h2>🛒 Grocery List</h2></div></a>
+  </div>
+</body>
+</html>
