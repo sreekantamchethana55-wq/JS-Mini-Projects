@@ -20,4 +20,3 @@ Click below to explore each live project 👇
 
 ---
 
-✨ *Made with ❤️ by puchakai*
